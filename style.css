@@ -1,0 +1,228 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Body */
+body { font-family: 'Segoe UI', sans-serif; background: #fff; color: #333; }
+
+/* Navbar */
+.navbar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 15px 30px; background: #4CAF50; position: sticky; top: 0;
+}
+.logo { font-size: 24px; color: white; font-weight: bold; }
+.nav-links { list-style: none; display: flex; }
+.nav-links li { margin-left: 20px; }
+.nav-links a { color: white; text-decoration: none; font-weight: 600; }
+.btn {
+  background: #ff9800; padding: 10px 20px; border-radius: 5px;
+  color: white; text-decoration: none; font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background: url('https://picsum.photos/1200/500?education') no-repeat center/cover;
+  height: 500px; display: flex; align-items: center; justify-content: center;
+}
+.hero-content { text-align: center; color: white; }
+.hero-content h1 { font-size: 48px; margin-bottom: 20px; }
+.hero-content p { font-size: 20px; margin-bottom: 30px; }
+
+/* Features */
+.features { padding: 60px 20px; text-align: center; background: #f9f9f9; }
+.feature-list { display: flex; justify-content: center; gap: 30px; margin-top: 30px; }
+.feature-card {
+  background: white; padding: 20px; border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 250px;
+}
+.feature-card img { margin-bottom: 15px; }
+
+/* Testimonials */
+.testimonials { padding: 60px 20px; text-align: center; }
+.testimonial-list { display: flex; justify-content: center; gap: 20px; margin-top: 30px; }
+.testimonial-card {
+  background: #f0f0f0; padding: 20px; border-radius: 8px; width: 300px;
+}
+.testimonial-card p { font-style: italic; margin-bottom: 10px; }
+
+/* Footer */
+footer { background: #333; color: white; padding: 40px; }
+.footer-columns { display: flex; justify-content: space-between; margin-bottom: 20px; }
+.footer-columns div { width: 30%; }
+.footer-columns h3 { margin-bottom: 10px; }
+.footer-columns a { color: #ff9800; text-decoration: none; }
+.footer-bottom { text-align: center; font-size: 14px; }
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Body with Strict Purple Background */
+.courses-body {
+  background: #6a1b9a; /* Deep Purple */
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold; /* All fonts bold */
+}
+
+/* Navbar */
+.navbar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 15px 30px; background: #4a148c;
+}
+.logo { font-size: 24px; color: white; font-weight: bold; }
+.nav-links { list-style: none; display: flex; }
+.nav-links li { margin-left: 20px; }
+.nav-links a { color: white; text-decoration: none; font-weight: bold; }
+.btn {
+  background: #ff9800; padding: 10px 20px; border-radius: 5px;
+  color: white; text-decoration: none; font-weight: bold;
+}
+
+/* Hero Section */
+.hero-courses {
+  text-align: center;
+  padding: 60px 20px;
+}
+.center-image {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.hero-courses h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.hero-courses p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+/* Courses Grid */
+.courses-page {
+  padding: 40px 20px;
+}
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.course-card {
+  background: #7b1fa2;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+.course-card:hover {
+  transform: translateY(-5px);
+}
+.course-card h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.course-card p {
+  font-size: 14px;
+}
+
+/* Footer */
+footer {
+  background: #4a148c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+.footer-bottom { font-size: 14px; }
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Body */
+.home-body {
+  background: #6a1b9a; /* Deep Purple */
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 15px 30px; background: #4a148c;
+}
+.logo { font-size: 24px; color: white; font-weight: bold; }
+.nav-links { list-style: none; display: flex; }
+.nav-links li { margin-left: 20px; }
+.nav-links a { color: white; text-decoration: none; font-weight: bold; }
+.btn {
+  background: #ff9800; padding: 10px 20px; border-radius: 5px;
+  color: white; text-decoration: none; font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: #7b1fa2;
+}
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+/* Features Section */
+.features {
+  padding: 60px 20px;
+  text-align: center;
+  background: #8e24aa;
+}
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+.feature-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.feature-card {
+  background: #9c27b0;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+.feature-card h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.feature-card p {
+  font-size: 14px;
+}
+
+/* Footer */
+footer {
+  background: #4a148c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+.footer-bottom { font-size: 14px; }
+
